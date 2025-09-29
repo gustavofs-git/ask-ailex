@@ -129,11 +129,6 @@ After successful execution, you'll have:
 - `testing_guide.md` - How to run tests and validate functionality
 - `agent_selection.md` - Justification for chosen agent and approach
 
-### Test Directory: `tests/tasks/{TASK_ID}/`
-- `test_basic.py` - Basic functionality tests
-- `test_integration.py` - Integration and system tests
-- `test_performance.py` - Performance and quality tests
-
 ### Linear Updates
 - Task status updated to completed
 - Comments added with complexity analysis
@@ -245,13 +240,6 @@ The command will fail if:
 - Keep task descriptions updated based on analysis feedback
 - Use consistent naming and structure across tasks
 - Review and improve based on post-implementation analysis
-
-## Integration with Other Commands
-
-### Workflow Integration
-- Use after `/setup-tasks` for implementing planned tasks
-- Combine with `/add-feature` for new functionality implementation
-- Complement `/process-task` with additional analysis and documentation
 
 ### Documentation Chain
 - Builds upon architecture from `/setup-docs`
